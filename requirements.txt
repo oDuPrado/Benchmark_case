@@ -1,0 +1,4 @@
+pandas>=2.2
+faker>=24.0
+duckdb>=0.10
+pyspark>=3.5
