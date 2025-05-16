@@ -19,7 +19,7 @@ OUT_DIR        = Path("dados").resolve()
 PARQUET_DIR    = OUT_DIR / "vendas.parquet"
 CSV_FILE       = OUT_DIR / "vendas.csv"
 DUCKDB_FILE    = OUT_DIR / "vendas.duckdb"
-N_LINHAS       = 1_000_000                      # altere p/ 100_000_000 depois
+N_LINHAS       = 1_000_000                      # altere p/ 100_000_000 se necessário
 CHUNK          = 250_000                        # linhas por chunk de geração
 QUERIES = {
     "vendas_por_loja": """
