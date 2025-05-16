@@ -63,7 +63,7 @@ python gerar_relatorio.py
 
 > Isso irá:
 >
-> * Gerar ou reaproveitar um dataset sintético de 1 milhão de vendas
+> * Gerar ou reaproveitar um dataset sintético de N vendas
 > * Converter o dataset para Parquet, CSV e DuckDB nativo
 > * Executar 3 queries de BI em cada formato
 > * Gerar o notebook `relatorio.ipynb` com gráficos e conclusão
@@ -102,9 +102,7 @@ O script gera automaticamente um notebook `relatorio.ipynb` com:
 
 * Tabela de resultados
 * Gráficos comparativos
-* Discussões técnicas
-* Conclusão estruturada em formato acadêmico
-
+* Discussões técnicass
 ---
 
 ## 🤝 Contribuição
